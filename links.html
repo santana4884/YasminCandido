@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Links oficiais de Yasmin Candido, advogada trabalhista e previdenciária.">
+  <title>Yasmin Candido | Links oficiais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --wine: #4f0117;
+      --wine-deep: #35000f;
+      --gold: #bd9952;
+      --gold-light: #e6cd91;
+      --cream: #faf8f4;
+      --white: #fff;
+      --muted: #75686a;
+    }
+
+    * { box-sizing: border-box; }
+    body { min-height: 100vh; margin: 0; color: var(--wine); background: var(--wine); font-family: 'DM Sans', sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    .page { position: relative; width: min(100%, 560px); min-height: 100vh; margin: 0 auto; padding: 44px 22px 28px; overflow: hidden; background: var(--cream); }
+    .page::before { content: ''; position: absolute; top: -150px; right: -155px; width: 350px; height: 350px; border: 1px solid rgba(189,153,82,.3); border-radius: 50%; pointer-events: none; }
+    .page::after { content: ''; position: absolute; bottom: 35px; left: -210px; width: 360px; height: 360px; border: 1px solid rgba(79,1,23,.08); border-radius: 50%; pointer-events: none; }
+    .content { position: relative; z-index: 1; }
+    .profile { text-align: center; }
+    .profile-logo { width: min(275px, 76vw); margin: 0 auto 23px; }
+    .profile h1 { margin: 0; font: 500 2rem/1.05 'Playfair Display', serif; }
+    .profile p { max-width: 345px; margin: 12px auto 0; color: var(--muted); font-size: .92rem; line-height: 1.55; }
+    .profile-rule { width: 42px; height: 1px; margin: 22px auto 28px; background: var(--gold); }
+    .links { display: grid; gap: 13px; }
+    .link-card { position: relative; display: flex; align-items: center; min-height: 63px; padding: 12px 52px 12px 19px; border: 1px solid rgba(79,1,23,.14); border-radius: 2px; color: var(--white); background: var(--wine); box-shadow: 0 8px 18px rgba(79,1,23,.08); transition: transform .22s ease, background .22s ease, color .22s ease; }
+    .link-card:hover { color: var(--wine); background: var(--gold-light); transform: translateY(-3px); }
+    .link-icon { display: grid; place-items: center; width: 33px; height: 33px; margin-right: 13px; flex: 0 0 33px; }
+    .link-icon img { width: 27px; height: 27px; object-fit: contain; filter: brightness(0) saturate(100%) invert(77%) sepia(25%) saturate(720%) hue-rotate(2deg) brightness(91%) contrast(87%); transition: filter .22s ease; }
+    .link-icon-symbol { color: var(--gold-light); font-size: 1.35rem; transition: color .22s ease; }
+    .link-icon-symbol.star { font-size: 1.25rem; }
+    .link-card:hover .link-icon img { filter: brightness(0) saturate(100%) invert(18%) sepia(28%) saturate(2263%) hue-rotate(316deg) brightness(72%) contrast(119%); }
+    .link-card:hover .link-icon-symbol { color: var(--wine); }
+    .link-copy { display: grid; gap: 2px; }
+    .link-title { font-weight: 700; font-size: .88rem; }
+    .link-description { color: rgba(255,255,255,.68); font-size: .72rem; }
+    .link-card:hover .link-description { color: rgba(79,1,23,.72); }
+    .link-arrow { position: absolute; right: 19px; font-size: 1.15rem; color: var(--gold-light); transition: transform .22s ease, color .22s ease; }
+    .link-card:hover .link-arrow { color: var(--wine); transform: translateX(3px); }
+    .secondary-link { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 25px; color: var(--wine); font-size: .78rem; font-weight: 700; }
+    .secondary-link span { color: var(--gold); font-size: 1rem; }
+    footer { margin-top: 35px; color: var(--muted); text-align: center; font-size: .68rem; }
+    footer strong { display: block; margin-bottom: 5px; color: var(--wine); font: 500 1rem 'Playfair Display', serif; }
+    @media (prefers-reduced-motion: no-preference) {
+      .content { animation: reveal .65s ease both; }
+      @keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="content">
+      <header class="profile">
+        <img class="profile-logo" src="Logo.png" alt="Yasmin Candido - Advogada Trabalhista e Previdenciária">
+        <h1>Yasmin Candido</h1>
+        <p>Advocacia Trabalhista e Previdenciária<br>Informação para decisões mais seguras.</p>
+        <div class="profile-rule" aria-hidden="true"></div>
+      </header>
+
+      <nav class="links" aria-label="Links principais">
+        <a class="link-card" href="https://wa.me/5521994087246" target="_blank" rel="noopener">
+          <span class="link-icon"><img src="telephone_12868227.png" alt=""></span>
+          <span class="link-copy"><span class="link-title">Fale comigo pelo WhatsApp</span><span class="link-description">Agende seu atendimento</span></span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-card" href="https://instagram.com/yasmincandido.adv" target="_blank" rel="noopener">
+          <span class="link-icon"><img src="instagram.png" alt=""></span>
+          <span class="link-copy"><span class="link-title">Siga no Instagram</span><span class="link-description">@yasmincandido.adv</span></span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-card" href="index.html#atuacao">
+          <span class="link-icon" aria-hidden="true"><span class="link-icon-symbol">§</span></span>
+          <span class="link-copy"><span class="link-title">Conheça minha atuação</span><span class="link-description">Direito Trabalhista e Previdenciário</span></span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-card" href="index.html#contato">
+          <span class="link-icon" aria-hidden="true"><span class="link-icon-symbol star">✦</span></span>
+          <span class="link-copy"><span class="link-title">Envie uma mensagem</span><span class="link-description">Conte brevemente como posso ajudar</span></span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+      </nav>
+
+      <a class="secondary-link" href="index.html"><span aria-hidden="true">←</span> Conheça o site completo</a>
+      <footer><strong>Yasmin Candido</strong>Atendimento com hora marcada</footer>
+    </div>
+  </main>
+</body>
+</html>
