@@ -118,8 +118,11 @@
 
     @media (max-width: 800px) {
       .container { width: min(100% - 34px, 600px); }
-      .nav { min-height: 70px; }
+      .nav { min-height: 88px; }
+      .nav { position: relative; justify-content: flex-end; }
       .nav-menu { display: block; }
+      .nav-links { top: 88px; }
+      .nav-brand { position: absolute; top: 10px; left: 50%; transform: translateX(-50%); }
       .nav-links { position: absolute; top: 70px; left: 17px; right: 17px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 8px; background: var(--wine-deep); box-shadow: 0 15px 25px rgba(0,0,0,.15); }
       .nav-links.is-open { display: flex; }
       .nav-links a { padding: 13px 15px; }
