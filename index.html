@@ -47,7 +47,8 @@
     .nav-links a:hover { opacity: 1; color: var(--gold-light); }
     .nav-menu { display: none; border: 0; background: transparent; color: var(--white); font-size: 1.5rem; cursor: pointer; }
 
-    .hero { position: relative; min-height: 750px; display: flex; align-items: center; color: var(--white); background: var(--wine); }
+    .hero { position: relative; min-height: 750px; display: flex; align-items: center; overflow: hidden; color: var(--white); background: var(--wine); }
+    .hero-logo { position: absolute; z-index: 0; top: 50%; right: 4%; width: min(39vw, 455px); height: auto; opacity: .14; transform: translateY(-50%); pointer-events: none; }
     .hero-inner { position: relative; z-index: 1; padding-top: 62px; }
     .hero-copy { max-width: 720px; }
     .hero h1 { width: 100%; max-width: 650px; margin: 20px 0 24px; font: 500 clamp(2rem, 6vw, 5.9rem)/1.03 'Playfair Display', serif; letter-spacing: -.035em; }
@@ -124,6 +125,7 @@
       .nav-links a { padding: 13px 15px; }
       .nav-links .button { margin: 7px; }
       .hero { min-height: auto; padding: 145px 0 75px; }
+      .hero-logo { top: auto; right: -28px; bottom: 28px; width: 270px; opacity: .12; transform: none; }
       .intro-grid, .process-intro, .faq-grid { grid-template-columns: 1fr; gap: 45px; }
       .hero h1 { font-size: clamp(1.75rem, 8.2vw, 4.8rem); }
       .intro, .areas, .process, .faq-contact { padding: 76px 0; }
@@ -160,6 +162,7 @@
 
   <main>
     <section class="hero" id="inicio">
+      <img class="hero-logo" src="logo.svg" alt="" aria-hidden="true">
       <div class="hero-inner container">
         <div class="hero-copy">
           <div class="eyebrow">Advocacia especializada</div>
